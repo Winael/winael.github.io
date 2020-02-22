@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inspiration on Winael&#39;s Blog</title>
+    <link>https://winael.github.io/tags/inspiration/</link>
+    <description>Recent content in Inspiration on Winael&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 21 Feb 2020 23:55:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://winael.github.io/tags/inspiration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sortir Des Sentiers Battus</title>
+      <link>https://winael.github.io/posts/sortir-des-sentiers-battus/</link>
+      <pubDate>Fri, 21 Feb 2020 23:55:14 +0100</pubDate>
+      
+      <guid>https://winael.github.io/posts/sortir-des-sentiers-battus/</guid>
+      <description>Il y a quelques temps Constantin Guay partageait un billet de blog faisant une analogie entre les problématique d&amp;rsquo;estimations d&amp;rsquo;une équipe de développement Agile et l&amp;rsquo;estimation du temps de parcours donné par un GPS &amp;ldquo;temps réel&amp;rdquo;.
+Il est parfois possible de rencontrer des obstacles qui peuvent allonger votre temps de parcours, les objectifs devenant difficilement atteignables dans le temps donné (et dans ce cas, la préconisation de faire preuve de transparence, est non seulement honnête, mais preuve de respect : je préfère cent fois recevoir un message me disant : &amp;ldquo;Galère, je vais sans doute avoir une heure de retard, désolé mec !</description>
+    </item>
+    
+  </channel>
+</rss>
