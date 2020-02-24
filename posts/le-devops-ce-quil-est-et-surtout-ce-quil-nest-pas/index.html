@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Winael&#39;s Blog  | Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.65.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas." />
+<meta property="og:description" content="A la découverte de DevOps." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/" />
+<meta property="article:published_time" content="2020-02-22T15:42:52+00:00" />
+<meta property="article:modified_time" content="2020-02-22T15:42:52+00:00" />
+<meta itemprop="name" content="Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.">
+<meta itemprop="description" content="A la découverte de DevOps.">
+<meta itemprop="datePublished" content="2020-02-22T15:42:52&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-22T15:42:52&#43;00:00" />
+<meta itemprop="wordCount" content="1364">
+
+
+
+<meta itemprop="keywords" content="DevOps,Agile,Agilité," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas."/>
+<meta name="twitter:description" content="A la découverte de DevOps."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://winael.github.io/images/devops.jpeg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://winael.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Winael&#39;s Blog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+<a href="https://twitter.com/vinzjobard" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://linkedin.com/in/vinzjobard" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/winael" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              A la découverte de DevOps.
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/&amp;text=Le%20Devops%20:%20Ce%20qu%27il%20est...%20Et%20surtout%20ce%20qu%27il%20n%27est%20pas." class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/&amp;title=Le%20Devops%20:%20Ce%20qu%27il%20est...%20Et%20surtout%20ce%20qu%27il%20n%27est%20pas." class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+      <h1 class="f1 athelas mt3 mb1">Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Winael&rdquo;
+          
+          </strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-02-22T15:42:52Z">February 22, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Lorsque l’on fait une recherche sur les sites d’emploi avec le mot-clé DevOps,
+il n’est pas rare de tomber sur ce genre d’annonce :</p>
+<p><em>“Afin de renforcer nos équipes techniques, nous recherchons notre futur(e)
+Ingénieur(e) DevOps. Vous serez en charge de développer nos outils DevOps en
+appliquant la méthodologie DevOps.”</em></p>
+<p>Bien évidemment, cette annonce est factice, mais elle est un condensé de ce que
+l’on peut trouver comme offre d’emploi.</p>
+<p>Face à cela, nous leur souhaitons bon courage et ce pour trois raisons :</p>
+<ul>
+<li>un <strong>Ingénieur DevOps</strong>, c’est comme une chimère ça n’existe pas,</li>
+<li>il n’y a pas d’<strong>outils DevOps</strong>,</li>
+<li>et encore moins de <strong>Méthodologie DevOps</strong>.</li>
+</ul>
+<h1 id="mais-alors-le-devops-cest-quoi-">Mais alors, le DevOps c’est quoi ?</h1>
+<p>Traditionnellement, pour des questions de coût et d’organisation, les
+développeurs et les opérationnels (Administrateurs systèmes, exploitants…) sont
+séparés. Les développeurs créent de la valeur, tandis que les opérationnels sont
+des centres de coûts. Leurs objectifs sont donc aux antipodes.</p>
+<p>Alors que l’objectif des <strong>développeurs</strong> est de créer un <strong>produit toujours
+plus innovant</strong>, et apporter plus de valeur aux utilisateurs de ces solutions,
+les <strong>opérationnels</strong>, eux, recherchent toujours <strong>plus de stabilité</strong> des
+systèmes en limitant les coûts.</p>
+<p>Cette situation de conflits d’intérêts crée ce qu’Andrew Shafer et Lee Thompson
+appellent le <em><strong>Mur de la confusion</strong></em>. C’est ce mur qui est à l’origine de
+nombreux conflits et de l’inefficacité de certaines structures. Combien
+d’opérationnels se sont retrouvés frustrés lors d’une livraison ou d’une
+migration litigieuse à l’instar de Patrick Dubois ?</p>
+<p>Ce consultant en administration des systèmes a subi cette relation dégradée lors
+d’une migration de données pour le gouvernement belge en 2007. Cette frustration
+l’a motivé à assister à la présentation intitulée <em>“Agile Infrastructure”</em> du
+développeur Andrew Shafer lors de la conférence Agile de Toronto l’année
+suivante. Malheureusement, personne n’y est venu. Pas même Andrew Shafer.</p>
+<p>Fort heureusement, Patrick Dubois et Andrew Shafer ont tout de même pu échanger
+à ce sujet, ce qui a abouti à la création du Groupe de l’Administration Système
+Agile (<em>Agile System Administration Group</em>). Une année plus tard, eu lieu le
+Velocity O’Reilly durant lequel John Allspaw et Paul Hammond présentèrent un
+Retour d’Expérience sur la Coopération Dev et Ops chez Flickr.</p>
+<div style="float: right; padding-left: 20px;">
+<img src=/images/keep-calms-and-think-devops.png alt="Keep CALMS and Think DevOps by Extia" width=200px />
+</div>
+<p>Malheureusement, Patrick Dubois ne put s’y rendre, et le fit savoir sur Twitter,
+suite à quoi Paul Nasrat lui proposa d’organiser un Velocity Event en Belgique.
+Ce sera chose faite quelques mois plus tard, en octobre 2009. Trouvant le nom
+<em>Agile System Administration</em> trop long, il décide de nommer son évènement :
+Jours des Dev (Développeurs) et des Ops (Opérationnels = Administrateurs
+Système), soit <strong>DevOpsDays</strong>. L’événement est un grand succès et les
+discussions se poursuivent sur Twitter avec le Hashtag… <strong>#DevOps</strong>.</p>
+<p>Oui oui, à la base, DevOps c’est juste un hashtag utilisé pour des discussions
+Agiles entre les développeurs et les administrateurs système ayant une approche
+Agile de leur métier. Pas un ensemble d’outils, pas un nouveau métier, ou une
+méthode, juste des discussions.</p>
+<p>De ces discussions, un véritable mouvement culturel émerge : <strong>le Mouvement
+DevOps</strong>.</p>
+<h1 id="les-4-piliers-initiaux-du-mouvement-devops">Les 4 piliers initiaux du Mouvement DevOps</h1>
+<p>Le Mouvement DevOps repose sur 4 piliers initiaux, à savoir :</p>
+<ul>
+<li>La Culture (<em>Culture</em>),</li>
+<li>L’Automatisation (<em>Automation</em>),</li>
+<li>Les Mesures (<em>Measures</em>),</li>
+<li>Le Partage (<em>Share</em>).</li>
+</ul>
+<p>On retrouve d’ailleurs souvent l’acronyme <strong>CAMS</strong> dans de nombreux ouvrages
+traitant du Mouvement DevOps. Depuis peu, on parle aussi de <strong>CALMS</strong>, car un
+cinquième pilier s’est ajouté : Le Lean Management (Gestion des ressources au
+plus juste).</p>
+<h2 id="culture--dave-et-hops-sont-dans-un-bobsleigh">Culture : Dave et Hops sont dans un bobsleigh…</h2>
+<p>Dave et son ami Hopper, dit Hops, sont champions de bobsleigh. L’un sans
+l’autre, ils ne pourraient même pas atteindre leur objectif qu’est le
+franchissement de la ligne d’arrivée. En effet, Dave est le pilote, c’est à lui
+d’anticiper les virages et de changer de trajectoire. Sans lui, Hops ferait une
+sortie de piste au premier virage. Hops, lui est le freineur. En effet, il ne
+faut pas que le bobsleigh aille trop vite, sinon, il risque de perdre sa
+stabilité et de sortir de piste dès le premier virage.</p>
+<p>Cela a pris du temps, mais Dave et Hops ont pu apprendre à se connaître grâce à
+leurs nombreux échecs. Ils ont développé une culture commune et surtout une
+confiance qui leur permettent d’anticiper les actions de l’autre.</p>
+<h2 id="automatisation--cétautomatix-le-roi-de-la-forge">Automatisation : Cétautomatix, le roi de la forge</h2>
+<p>En tant qu’Ops, Cétautomatix fournit des environnements pour ses collègues
+développeurs. Afin de s’assurer de la qualité du livrable fourni par l’équipe,
+il est décidé que le livrable puisse être testé sur 4 environnements.
+L’environnement de développement accueillera toutes les modifications et devra
+pouvoir être reconstruit facilement en cas de problème lors de l’étape de
+développement. L’environnement de test permettra de faire tester l’application
+et réaliser des benchmarks. L’environnement de recettage permettra aux clients
+de tester la solution et de renvoyer du feedback à l’équipe de développement.
+Le dernier environnement n’est autre que la plateforme de production.</p>
+<p>Il doit donc mettre en place et maintenir toute l’infrastructure et déployer
+l’application, faire tourner des tests, et être capable de revenir en arrière en
+cas de problème.</p>
+<p>Dans ces conditions, il est important d’automatiser un maximum de tâches, afin
+de lui faire gagner du temps et éviter des erreurs humaines qui pourraient avoir
+un impact négatif sur le travail collectif.</p>
+<p>Cette automatisation permet aujourd’hui de mettre en place de véritables usines
+logicielles, appelées forges, permettant de faire de l’intégration et de la
+livraison continues. Lorsqu’une mise à jour est poussée par un dev dans
+l’environnement de test de l’équipe DevOps de Cétautomatix, tout est testé
+(code, sécurité, régression, benchmark, …), puis poussé dans l’environnement de
+recette du client.</p>
+<h2 id="mesures--_-qui-ne-mesure-jamais-ne-dure-_-proverbe-gaulois-français">Mesures : <em>« Qui ne mesure, jamais ne dure. »</em> (Proverbe gaulois français)</h2>
+<p>En automatisant l’administration de son système d’information pour en faciliter
+sa gestion, Cétautomatix a du le complexifier… beaucoup. Du coup, il est donc
+devenu nécessaire de gérer ce système de façon plus agile, en ayant une approche
+empirique. Et qui dit empirique, dit mesures. Puisqu’il s’agit d’un système
+d’information et non d’un système humain, les retours se font au travers
+d’indicateurs et de sondes. Cétautomatix va donc monitorer son système pour le
+faire évoluer, en utilisant des sondes tant au niveau de l’infrastructure, ce
+qui lui permettra d’avoir une gestion au plus juste de ses ressources (Lean),
+qu’au niveau applicatifs.</p>
+<p>Ces métriques serviront également aux développeurs pour améliorer leurs
+logiciels, et même, de plus en plus au métier, puisqu’en rapprochant le résultat
+de plusieurs remontées, de nouvelles informations pertinentes peuvent être mises
+en valeur et produire de la valeur commerciale. C’est sur ce point que se base
+le mouvement Big Data.</p>
+<h2 id="partage--la-culture-est-le-partage-de-valeurs-et-de-savoir-faire">Partage : La Culture est le partage de valeurs et de savoir-faire</h2>
+<p><em>« En sociologie, la culture est définie de façon plus étroite comme « ce qui
+est commun à un groupe d’individus » et comme « ce qui le soude », c’est-à-dire
+ce qui est appris, transmis, produit et créé »</em></p>
+<p><strong>source :</strong> <em>Wikipédia</em></p>
+<p>Le Mouvement DevOps est comme on l’a dit un mouvement culturel, ce qui signifie
+que les valeurs qui soudent les équipes travaillant avec l’état d’esprit DevOps
+sont apprises et transmises pour ensemble produire et créer des solutions. Cela
+passe par un un échange de savoir qui a entre autre permis aux Ops de travailler
+avec des systèmes de gestion de l’infrastructure versionné dans des fichiers
+déclaratifs et variabilisés à l’image de méthodologies plutôt utilisées dans le
+cadre du développement (on parle d’Infrastructure as Code), ou bien d’utiliser
+des conteneurs pour livrer les composants d’infrastructure. Les équipes sont
+aussi plus transparentes et les métriques récoltés sont partagés globalement
+(métiers, développeurs, équipe de sécurité, etc…).</p>
+<p>Le partage, c’est aussi le partage entre pairs, sous forme de retour
+d’expérience (produit, manière de travailler ou de contourner les obstacles,
+best practices). De nombreux événements permettent à tous les maillons de la
+chaîne de production IT partageant la Culture DevOps, de se retrouver, et de
+continuellement échanger pour progresser collectivement.</p>
+<h1 id="le-devops-en-quelques-mots">Le DevOps en quelques mots</h1>
+<p>Si on devait résumer en quelques mots ce qu’est DevOps, c’est une interaction
+forte entre les différents acteurs réactifs de la chaîne de production IT, afin
+de livrer une solution fonctionnelle, de qualité et qui répond aux attentes des
+clients et des utilisateurs. Bref, vous l’aurez compris, de l’Agilité orientée
+Administration Système 😉</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/devops" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">DevOps</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/agile" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Agile</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/agilit%C3%A9" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Agilité</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://winael.github.io/" >
+    &copy;  Winael's Blog 2020 
+  </a>
+    <div>
+
+
+
+
+<a href="https://twitter.com/vinzjobard" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://linkedin.com/in/vinzjobard" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/winael" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

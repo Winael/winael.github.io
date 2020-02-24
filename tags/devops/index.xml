@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on Winael&#39;s Blog</title>
+    <link>https://winael.github.io/tags/devops/</link>
+    <description>Recent content in DevOps on Winael&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 22 Feb 2020 15:42:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://winael.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</title>
+      <link>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</link>
+      <pubDate>Sat, 22 Feb 2020 15:42:52 +0000</pubDate>
+      
+      <guid>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</guid>
+      <description>Lorsque l’on fait une recherche sur les sites d’emploi avec le mot-clé DevOps, il n’est pas rare de tomber sur ce genre d’annonce :
+“Afin de renforcer nos équipes techniques, nous recherchons notre futur(e) Ingénieur(e) DevOps. Vous serez en charge de développer nos outils DevOps en appliquant la méthodologie DevOps.”
+Bien évidemment, cette annonce est factice, mais elle est un condensé de ce que l’on peut trouver comme offre d’emploi.</description>
+    </item>
+    
+  </channel>
+</rss>

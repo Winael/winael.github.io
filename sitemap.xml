@@ -3,6 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://winael.github.io/tags/agile/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/tags/agilit%C3%A9/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/tags/devops/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/posts/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/tags/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/</loc>
+    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://winael.github.io/tags/innovation/</loc>
     <lastmod>2020-02-21T23:55:14+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -24,28 +73,7 @@
   </url>
   
   <url>
-    <loc>https://winael.github.io/posts/</loc>
-    <lastmod>2020-02-21T23:55:14+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://winael.github.io/posts/sortir-des-sentiers-battus/</loc>
-    <lastmod>2020-02-21T23:55:14+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://winael.github.io/tags/</loc>
-    <lastmod>2020-02-21T23:55:14+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://winael.github.io/</loc>
     <lastmod>2020-02-21T23:55:14+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
