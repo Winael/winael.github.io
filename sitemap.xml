@@ -4,48 +4,62 @@
   
   <url>
     <loc>https://winael.github.io/tags/agile/</loc>
-    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://winael.github.io/tags/agilit%C3%A9/</loc>
-    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://winael.github.io/tags/devops/</loc>
-    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</loc>
-    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <loc>https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</loc>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://winael.github.io/posts/</loc>
-    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/tags/scrum/</loc>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://winael.github.io/tags/</loc>
-    <lastmod>2020-02-22T15:42:52+00:00</lastmod>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://winael.github.io/</loc>
+    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</loc>
     <lastmod>2020-02-22T15:42:52+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

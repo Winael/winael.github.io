@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Winael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sat, 22 Feb 2020 15:42:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 15:18:42 +0100</lastBuildDate>
     
 	<atom:link href="https://winael.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...</title>
+      <link>https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</link>
+      <pubDate>Mon, 24 Feb 2020 15:18:42 +0100</pubDate>
+      
+      <guid>https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</guid>
+      <description>Suite à la publication d&amp;rsquo;un article sur ce qu&amp;rsquo;est DevOps (et ce qu&amp;rsquo;il n&amp;rsquo;est pas), un des auteurs de commentaires a présenté l&amp;rsquo;infographie suivante comme étant un panel d&amp;rsquo;outils DevOps :
+On y retrouve un certain nombre d&amp;rsquo;outils, utilisés quotidiennement par de nombreux acteurs IT, qui permettent ou améliorent le travail collaboratif pour certains de ces outils, l&amp;rsquo;automatisation pour d&amp;rsquo;autres, la gestion de versions de code, la gestion de configuration etc.</description>
+    </item>
     
     <item>
       <title>Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</title>

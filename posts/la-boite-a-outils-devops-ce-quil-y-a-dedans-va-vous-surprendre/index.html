@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Winael&#39;s Blog  | La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.65.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre..." />
+<meta property="og:description" content="Les outils ne font pas le DevOps" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/" />
+<meta property="article:published_time" content="2020-02-24T15:18:42+01:00" />
+<meta property="article:modified_time" content="2020-02-24T15:18:42+01:00" />
+<meta itemprop="name" content="La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...">
+<meta itemprop="description" content="Les outils ne font pas le DevOps">
+<meta itemprop="datePublished" content="2020-02-24T15:18:42&#43;01:00" />
+<meta itemprop="dateModified" content="2020-02-24T15:18:42&#43;01:00" />
+<meta itemprop="wordCount" content="1276">
+
+
+
+<meta itemprop="keywords" content="DevOps,Agile,Agilité,Scrum," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre..."/>
+<meta name="twitter:description" content="Les outils ne font pas le DevOps"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://winael.github.io/images/outils-devops.jpeg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://winael.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Winael&#39;s Blog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+<a href="https://twitter.com/vinzjobard" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://linkedin.com/in/vinzjobard" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/winael" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Les outils ne font pas le DevOps
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/&amp;text=La%20boite%20%c3%a0%20outils%20DevOps,%20ce%20qu%27il%20y%20a%20dedans%20va%20vous%20surprendre..." class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/&amp;title=La%20boite%20%c3%a0%20outils%20DevOps,%20ce%20qu%27il%20y%20a%20dedans%20va%20vous%20surprendre..." class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+      <h1 class="f1 athelas mt3 mb1">La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Winael
+          
+          </strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-02-24T15:18:42&#43;01:00">February 24, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Suite à la publication d&rsquo;un
+<a href="/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas">article sur ce qu&rsquo;est DevOps (et ce qu&rsquo;il n&rsquo;est pas)</a>, un des auteurs de
+commentaires a présenté l&rsquo;infographie suivante comme étant un panel d&rsquo;outils
+DevOps :</p>
+<p><img src="/images/outils-devops.jpeg" alt="Outils &ldquo;DevOps&rdquo;"></p>
+<p>On y retrouve un certain nombre d&rsquo;outils, utilisés quotidiennement par de
+nombreux acteurs IT, qui permettent ou améliorent le travail collaboratif pour
+certains de ces outils, l&rsquo;automatisation pour d&rsquo;autres, la gestion de versions
+de code, la gestion de configuration etc.</p>
+<p><strong>La question est donc de savoir si ces outils peuvent-être considérés comme
+DevOps ou non.</strong></p>
+<h1 id="didier-fadia-et-joann-utilisateurs-doutils-devops">Didier, Fadia et Joann&hellip; utilisateurs d&rsquo;outils &ldquo;devops&rdquo;</h1>
+<p><strong>Didier est développeur.</strong> Il appartient à une équipe qui travaille sur un
+produit P. Cette équipe à son &ldquo;PO&rdquo; dédié, son &ldquo;Scrum Master&rdquo; dédié. Le code est
+poussé sans un <strong>dépôt Git</strong>, puis Didier exécute une <strong>pipeline Jenkins</strong> pour
+builder son composant, son <strong>image Docker</strong>, qui sera ensuite déployée dans un
+<strong>cluster Kubernetes</strong>.</p>
+<p><strong>Fadia est intégratrice</strong>. C&rsquo;est elle qui est chargée de créer la/les pipelines
+pour les équipes de développeurs en fonction de leurs besoins (Créer des
+<strong>buckets Couchbase</strong>, et ajouter les configuration dans la pipeline, permettre
+à la pipeline d&rsquo;utiliser <strong>SonarQube pour les tests automatisés</strong>, etc).
+L'équipe de Fadia recevant des demandes de différentes équipes de développement
+gère son backlog selon les principes Kanban. Chaque personne prends des tâches
+qui sont demandées à l'équipe d&rsquo;intégration. L'équipe de Fadia à son &ldquo;PO&rdquo; et
+&ldquo;Scrum Master&rdquo; dédié. <strong>L'équipe de Fadia fournit du
+service à l'équipe de Didier.</strong></p>
+<p><strong>Joann est lui dans l'équipe de production.</strong> Il s&rsquo;occupe de l&rsquo;exploitation des
+solutions développées par la société dans laquelle travaillent Didier, Fadia et
+Joann. <strong>Il a en charge le bon fonctionnement des applications</strong>, voire
+l'évolution des pipelines mise en place par l'équipe de Fadia. L'équipe de
+Joann, de par ses contraintes de production <strong>travaillent selon les principes
+Kanban</strong>. Un référent est associé à chaque équipe de développement pour assurer
+une meilleure gestion des incidents et des évolutions. L'équipe de Joann n&rsquo;a pas
+de &ldquo;PO&rdquo;, mais à un &ldquo;Scrum Master&rdquo; dédié.</p>
+<p><strong>On voit bien que les outils utilisés sont inclus dans l&rsquo;infographie. Pour
+autant, on est très loin de DevOps. Toutes les équipes sont silotées, ne
+partagent par les objectifs, et pire non pas réellement de gouvernance
+commune.</strong></p>
+<h1 id="le-marteau-ne-fait-pas-lartisan-les-outils-dautomatisations-ne-font-pas-le-devops">Le marteau ne fait pas l&rsquo;artisan, les outils d&rsquo;automatisations ne font pas le DevOps</h1>
+<p>Il y a quelques années, j&rsquo;ai reçu pour Noël une superbe boite à outils,
+contenant perceuses, marteaux, tournevis, scies&hellip; Et pourtant, dès que j&rsquo;ai des
+travaux à faire à mon domicile, je suis souvent obligé d&rsquo;appeler mon père à la
+rescousse. <strong>J&rsquo;ai beau avoir tous les outils du parfait bricoleur&hellip; ça ne fait
+pas de moi un bricoleur.</strong> Je n&rsquo;ai jamais appris, je ne sais même pas choisir le
+bon forêt en fonction du mur que je dois percer.</p>
+<p>Pour DevOps, c&rsquo;est pareil, vous avez beau avoir tous les outils de l&rsquo;infographie
+ci-dessus, si vous n&rsquo;avez pas appris à travailler selon la philosophie DevOps,
+vous risquez, comme moi avec mon mur, de faire de sacré dégâts : Pas de prises
+en compte de l&rsquo;aspect sécurité au moment du développement, des tests automatisés,
+de la production, du temps de mise sur le marché, de la qualité produit.</p>
+<p>C&rsquo;est au moment du lancement du produit que l&rsquo;on s’aperçoit que les logs sont
+mal formatées et mal prises en charges dans le concentrateur de logs et qu&rsquo;il
+est difficile de créer des tableaux de bords ou des alertes efficace.</p>
+<p>On s&rsquo;aperçoit également que le cycle de vie, et le patch management n&rsquo;a pas été
+implémenté, que l&rsquo;application n&rsquo;est pas assez bien testées et que <strong>de gros
+problèmes de fond vont présenter des risques</strong>.</p>
+<p><strong>Le temps passé à corriger ces problèmes de fond risque de faire passer le
+produit à côté de son marché potentiel</strong>, une application concurrente étant
+arrivée entre temps et proposant une offre ayant séduit votre cœur de cible. Et
+si tout cela aurait pu être évité dès le commencement du projet ?</p>
+<h1 id="scrum-un-exemple-de-boite-à-outils-devops">Scrum, un exemple de boite à outils DevOps</h1>
+<p>Contrairement à ce qui est répandu un peu partout, <strong>Scrum N&rsquo;EST PAS une
+méthode, ni moins une méthodologie Agile</strong>.</p>
+<p>Tout d&rsquo;abord, ce n&rsquo;est pas une méthode ou méthodologie, car c&rsquo;est un <strong>cadre de
+processus léger</strong>, une sorte de boite à outils proposant des pratiques
+recommandées et n&rsquo;imposant que peu de choses comme ses rôles, et ses cérémonies,
+qui permettent le mieux travailler ensemble.</p>
+<p>D&rsquo;autre part, Scrum n&rsquo;est pas Agile, car ce cadre de processus est apparu
+plusieurs années avant le Manifeste du Développement Agile de Logiciel et a été
+<strong>conçu pour le développement, la livraison et la maintenance de produits
+complexes, y compris donc les projets non-informatique</strong>. Il est donc possible
+d&rsquo;utiliser Scrum dans le cadre du développement d&rsquo;une fusée ou d&rsquo;une campagne
+marketing.</p>
+<h2 id="mais-alors-pourquoi-proposer-scrum-comme-boite-à-outils-devops-si-scrum-nest-pas-agile-">Mais alors pourquoi proposer Scrum comme boite à outils DevOps, si Scrum n&rsquo;est pas Agile ?</h2>
+<p><a href="https://www.youtube.com/watch?v=sQfPweJrOHU">Lors de son intervention à Agile en Seine 2018</a>, Guillaume Lepetit, ancien
+DSI de TF1 qui a mis en place DevOps dans ce groupe média, avait eu cette phrase
+délicieuse : <em><a href="https://youtu.be/sQfPweJrOHU?t=1306">&ldquo;Ils (les collaborateurs) allaient pas pouvoir faire du DevOps
+sans avoir les bases de l&rsquo;Agilité.&quot;</a></em>.</p>
+<p>Or d&rsquo;après Diana Larsen et James Shore, auteurs du <a href="https://martinfowler.com/articles/agileFluency.html">Modèle d&rsquo;Aisance Agile</a>,
+<strong>la première zone à franchir pour qu&rsquo;une organisation devienne Agile, est la
+zone dite de Concentration (&ldquo;Focusing&rdquo;)</strong>. C&rsquo;est dans cette zone que l&rsquo;on va se
+<strong>concentrer sur la production de valeur métier</strong>. Elle s&rsquo;appuie notamment sur
+l&rsquo;apprentissage qu&rsquo;une équipe peut tirer de cadre de processus tel que
+<strong>Scrum</strong>.</p>
+<p>Les spécificités de Scrum sont donc toutes indiquées pour qu&rsquo;une équipe puisse
+commencer à mettre DevOps en place :</p>
+<p>En Scrum, il est nécessaire pour une équipe de <strong>regrouper l&rsquo;ensemble des
+compétences nécessaires au développement du produit</strong>. Ce qui veut dire pas
+seulement les devs, pas seulement les devs + les ops, mais aussi les personnes
+compétentes en monitoring, en sécurité, voire en UX également. Peut-être que
+certaines compétences seront moins nécessaires sur certains sprint. Dans ce cas,
+les personnes ayant ces compétences seront intégrées dans l'équipes de
+développement sur les sprints où ces compétences seront nécessaires.</p>
+<p>Il faut bien comprendre que <strong>le terme équipe de développement ne veut pas dire
+<em>&ldquo;équipe de developpeurs&rdquo;</em></strong>. L&rsquo;autre notion à retenir, c&rsquo;est que <strong>c&rsquo;est
+toujours l'équipe dans son ensemble, qui est responsable de l&rsquo;incrément produit
+potentiellement livrable</strong>, peut importe les profils qui l&rsquo;a compose. Les Devs,
+les Ops, les Secs sont autant responsable de l&rsquo;incrément produit.</p>
+<p>Il n&rsquo;y a donc qu&rsquo;un seul backlog pour l&rsquo;ensemble des tâches, DEV, SEC, OPS, QA
+et <strong>l'équipe partage les même objectif et chacun de ses membres doit être
+aligné sur la même vision produit</strong> dont le PO à la charge.</p>
+<p>Scrum s&rsquo;appuie sur 3 piliers : Transparence, Inspection et Adaptation.</p>
+<p>Ainsi l&rsquo;une des cérémonies les plus importantes en Scrum est la
+<strong>Rétrospective</strong>. Elle permet à l'équipe, à chaque fin de sprint, de
+<strong>réfléchir à l&rsquo;amélioration continue du travailler ensemble, en se basant sur
+les expériences passées</strong>.</p>
+<p><strong>L'équipe Scrum</strong> acquiert donc, sprint après sprint, une <strong>culture commune</strong>,
+de la <strong>transparence</strong> et du <strong>partage</strong>, basé sur les <strong>mesures du passé</strong>. Et
+puisqu&rsquo;elle doit être en mesure de pouvoir livrer l&rsquo;incrément du produit fini
+(répondant à tous les critères d&rsquo;acceptation à chaque fin de sprint),
+l&rsquo;<strong>automatisation</strong>, et la <strong>sécurité en sont donc des pré-requis</strong>.</p>
+<p><strong>Scrum</strong> permet de mettre en place facilement les <strong>4 piliers DevOps</strong>, c&rsquo;est
+pourquoi ce cadre de processus peut être considéré comme <strong>boite à outils
+DevOps</strong>.</p>
+<p><strong>En mettant en place Scrum</strong>, Didier, Fadia et Joann vont donc se retrouver
+dans la <strong>même équipe</strong>, <strong>partager les même objectifs</strong>, avec un <strong>backlog
+unique</strong> avec <strong>un seul PO</strong> et un seul <strong>Scrum Master unique</strong>.</p>
+<p><strong>Ils travailleront enfin ensemble et non séparé et deviendront DevOps.</strong></p>
+<p>Retrouvez l&rsquo;article en <a href="/epub/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre.epub">epub</a> ou <a href="/pdf/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre.pdf">pdf</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/devops" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">DevOps</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/agile" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Agile</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/agilit%C3%A9" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Agilité</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/scrum" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Scrum</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/">Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://winael.github.io/" >
+    &copy;  Winael's Blog 2020 
+  </a>
+    <div>
+
+
+
+
+<a href="https://twitter.com/vinzjobard" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://linkedin.com/in/vinzjobard" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/winael" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
