@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Winael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 24 Feb 2020 15:18:42 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2020 10:37:24 +0100</lastBuildDate>
     
 	<atom:link href="https://winael.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Agile</title>
       <link>https://winael.github.io/tags/agile/</link>
-      <pubDate>Mon, 24 Feb 2020 15:18:42 +0100</pubDate>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
       
       <guid>https://winael.github.io/tags/agile/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>Agilité</title>
       <link>https://winael.github.io/tags/agilit%C3%A9/</link>
-      <pubDate>Mon, 24 Feb 2020 15:18:42 +0100</pubDate>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
       
       <guid>https://winael.github.io/tags/agilit%C3%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valeurs Agile</title>
+      <link>https://winael.github.io/tags/valeurs-agile/</link>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/tags/valeurs-agile/</guid>
       <description></description>
     </item>
     

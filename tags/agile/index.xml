@@ -6,27 +6,47 @@
     <description>Recent content in Agile on Winael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 24 Feb 2020 15:18:42 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2020 10:37:24 +0100</lastBuildDate>
     
 	<atom:link href="https://winael.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>To be Agile or not to be Agile? That is the Question - Part 1: Les Valeurs de l&#39;Agilité</title>
+      <link>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</link>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</guid>
+      <description>ATTENTION : Cet article est un billet d&amp;rsquo;humeur. Le discours ne sera donc pas lissé et risque peut-être de choquer dans un monde où il ne faut surtout pas se faire remarquer. Et c&amp;rsquo;est tant mieux !
+Parfois au détour d&amp;rsquo;une veille on peut tomber sur ce genre d&amp;rsquo;article qui vous donne envie de réagir avec force. Dans cet article publié sur ZD.net, il est fait état d&amp;rsquo;une situation qui ne peut, à mon sens, plus durer.</description>
+    </item>
+    
+    <item>
+      <title>To be Agile or not to be Agile? That is the Question - Part 1: Les Valeurs de l&#39;Agilité</title>
+      <link>https://winael.github.io/posts/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</link>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/posts/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</guid>
+      <description>ATTENTION : Cet article est un billet d&amp;rsquo;humeur. Le discours ne sera donc pas lissé et risque peut-être de choquer dans un monde où il ne faut surtout pas se faire remarquer. Et c&amp;rsquo;est tant mieux !
+Parfois au détour d&amp;rsquo;une veille on peut tomber sur ce genre d&amp;rsquo;article qui vous donne envie de réagir avec force. Dans cet article publié sur ZD.net, il est fait état d&amp;rsquo;une situation qui ne peut, à mon sens, plus durer.</description>
+    </item>
+    
+    <item>
       <title>La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...</title>
-      <link>https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</link>
+      <link>https://winael.github.io/blog/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</link>
       <pubDate>Mon, 24 Feb 2020 15:18:42 +0100</pubDate>
       
-      <guid>https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</guid>
+      <guid>https://winael.github.io/blog/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</guid>
       <description>Suite à la publication d&amp;rsquo;un article sur ce qu&amp;rsquo;est DevOps (et ce qu&amp;rsquo;il n&amp;rsquo;est pas), un des auteurs de commentaires a présenté l&amp;rsquo;infographie suivante comme étant un panel d&amp;rsquo;outils DevOps :
 On y retrouve un certain nombre d&amp;rsquo;outils, utilisés quotidiennement par de nombreux acteurs IT, qui permettent ou améliorent le travail collaboratif pour certains de ces outils, l&amp;rsquo;automatisation pour d&amp;rsquo;autres, la gestion de versions de code, la gestion de configuration etc.</description>
     </item>
     
     <item>
       <title>Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</title>
-      <link>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</link>
+      <link>https://winael.github.io/blog/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</link>
       <pubDate>Sat, 22 Feb 2020 15:42:52 +0000</pubDate>
       
-      <guid>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</guid>
+      <guid>https://winael.github.io/blog/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</guid>
       <description>Lorsque l’on fait une recherche sur les sites d’emploi avec le mot-clé DevOps, il n’est pas rare de tomber sur ce genre d’annonce :
 “Afin de renforcer nos équipes techniques, nous recherchons notre futur(e) Ingénieur(e) DevOps. Vous serez en charge de développer nos outils DevOps en appliquant la méthodologie DevOps.”
 Bien évidemment, cette annonce est factice, mais elle est un condensé de ce que l’on peut trouver comme offre d’emploi.</description>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agilité on Winael&#39;s Blog</title>
-    <link>https://winael.github.io/tags/agilit%C3%A9/</link>
-    <description>Recent content in Agilité on Winael&#39;s Blog</description>
+    <title>Blogs on Winael&#39;s Blog</title>
+    <link>https://winael.github.io/blog/</link>
+    <description>Recent content in Blogs on Winael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Tue, 25 Feb 2020 10:37:24 +0100</lastBuildDate>
     
-	<atom:link href="https://winael.github.io/tags/agilit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://winael.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,16 +17,6 @@
       <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
       
       <guid>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</guid>
-      <description>ATTENTION : Cet article est un billet d&amp;rsquo;humeur. Le discours ne sera donc pas lissé et risque peut-être de choquer dans un monde où il ne faut surtout pas se faire remarquer. Et c&amp;rsquo;est tant mieux !
-Parfois au détour d&amp;rsquo;une veille on peut tomber sur ce genre d&amp;rsquo;article qui vous donne envie de réagir avec force. Dans cet article publié sur ZD.net, il est fait état d&amp;rsquo;une situation qui ne peut, à mon sens, plus durer.</description>
-    </item>
-    
-    <item>
-      <title>To be Agile or not to be Agile? That is the Question - Part 1: Les Valeurs de l&#39;Agilité</title>
-      <link>https://winael.github.io/posts/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</link>
-      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
-      
-      <guid>https://winael.github.io/posts/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</guid>
       <description>ATTENTION : Cet article est un billet d&amp;rsquo;humeur. Le discours ne sera donc pas lissé et risque peut-être de choquer dans un monde où il ne faut surtout pas se faire remarquer. Et c&amp;rsquo;est tant mieux !
 Parfois au détour d&amp;rsquo;une veille on peut tomber sur ce genre d&amp;rsquo;article qui vous donne envie de réagir avec force. Dans cet article publié sur ZD.net, il est fait état d&amp;rsquo;une situation qui ne peut, à mon sens, plus durer.</description>
     </item>
@@ -50,6 +40,26 @@ On y retrouve un certain nombre d&amp;rsquo;outils, utilisés quotidiennement pa
       <description>Lorsque l’on fait une recherche sur les sites d’emploi avec le mot-clé DevOps, il n’est pas rare de tomber sur ce genre d’annonce :
 “Afin de renforcer nos équipes techniques, nous recherchons notre futur(e) Ingénieur(e) DevOps. Vous serez en charge de développer nos outils DevOps en appliquant la méthodologie DevOps.”
 Bien évidemment, cette annonce est factice, mais elle est un condensé de ce que l’on peut trouver comme offre d’emploi.</description>
+    </item>
+    
+    <item>
+      <title>Sortir Des Sentiers Battus</title>
+      <link>https://winael.github.io/blog/sortir-des-sentiers-battus/</link>
+      <pubDate>Fri, 21 Feb 2020 23:55:14 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/sortir-des-sentiers-battus/</guid>
+      <description>Il y a quelques temps Constantin Guay partageait un billet de blog faisant une analogie entre les problématique d&amp;rsquo;estimations d&amp;rsquo;une équipe de développement Agile et l&amp;rsquo;estimation du temps de parcours donné par un GPS &amp;ldquo;temps réel&amp;rdquo;.
+Il est parfois possible de rencontrer des obstacles qui peuvent allonger votre temps de parcours, les objectifs devenant difficilement atteignables dans le temps donné (et dans ce cas, la préconisation de faire preuve de transparence, est non seulement honnête, mais preuve de respect : je préfère cent fois recevoir un message me disant : &amp;ldquo;Galère, je vais sans doute avoir une heure de retard, désolé mec !</description>
+    </item>
+    
+    <item>
+      <title>Bien Etre en Entreprise,IA, Automatisation... Et Rapports Humains</title>
+      <link>https://winael.github.io/blog/bien-etre-en-entreprise-ia-automatisation-et-rapports-humains/</link>
+      <pubDate>Fri, 21 Feb 2020 11:53:33 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/bien-etre-en-entreprise-ia-automatisation-et-rapports-humains/</guid>
+      <description>Différents points m&amp;rsquo;ont personnellement gênés en lisant l&amp;rsquo;article Futur du travail : IA, bonheur, subsidiarité&amp;hellip; et beaucoup d&amp;rsquo;HUMILITÉ de Catherine Testa.
+Tout d&amp;rsquo;abord, je déteste l&amp;rsquo;expression &amp;ldquo;Bonheur en entreprise&amp;rdquo;. Le bonheur représente un état de satisfaction total. Le bonheur en entreprise viserai donc un état de satisfaction total pour le salarié en entreprise, afin de réaliser le désir maître de ceux qui la dirigent. Il y a un côté fort déshumanisant, culpabilisant imposant un rapport de soumission des employés, qui eux aussi ont leur propres désirs maîtres.</description>
     </item>
     
   </channel>

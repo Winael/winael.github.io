@@ -4,14 +4,63 @@
   
   <url>
     <loc>https://winael.github.io/tags/agile/</loc>
-    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://winael.github.io/tags/agilit%C3%A9/</loc>
-    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/blog/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/posts/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/tags/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/posts/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/tags/valeurs-agile/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winael.github.io/</loc>
+    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,14 +73,7 @@
   </url>
   
   <url>
-    <loc>https://winael.github.io/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</loc>
-    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://winael.github.io/posts/</loc>
+    <loc>https://winael.github.io/blog/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</loc>
     <lastmod>2020-02-24T15:18:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -45,21 +87,7 @@
   </url>
   
   <url>
-    <loc>https://winael.github.io/tags/</loc>
-    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://winael.github.io/</loc>
-    <lastmod>2020-02-24T15:18:42+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://winael.github.io/posts/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</loc>
+    <loc>https://winael.github.io/blog/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</loc>
     <lastmod>2020-02-22T15:42:52+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -87,14 +115,14 @@
   </url>
   
   <url>
-    <loc>https://winael.github.io/posts/sortir-des-sentiers-battus/</loc>
+    <loc>https://winael.github.io/blog/sortir-des-sentiers-battus/</loc>
     <lastmod>2020-02-21T23:55:14+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://winael.github.io/posts/bien-etre-en-entreprise-ia-automatisation-et-rapports-humains/</loc>
+    <loc>https://winael.github.io/blog/bien-etre-en-entreprise-ia-automatisation-et-rapports-humains/</loc>
     <lastmod>2020-02-21T11:53:33+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
