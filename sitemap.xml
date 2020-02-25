@@ -24,13 +24,6 @@
   </url>
   
   <url>
-    <loc>https://winael.github.io/posts/</loc>
-    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://winael.github.io/tags/</loc>
     <lastmod>2020-02-25T10:37:24+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -39,13 +32,6 @@
   
   <url>
     <loc>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</loc>
-    <lastmod>2020-02-25T10:37:24+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://winael.github.io/posts/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</loc>
     <lastmod>2020-02-25T10:37:24+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
