@@ -1,0 +1,16 @@
+h1, strong {
+  font-weight: normal;
+}
+
+.lh-title, .f1, a.dib, li.pr3, .pa3 {
+  font-family: 'Ubuntu';
+}
+
+.tracked, time, .lh-copy {
+  font-family: 'ubuntu';
+  font-weight: lighter;
+}
+
+h2.lh-copy, h2.mt3 {
+  font-family: 'Chilanka';
+}
