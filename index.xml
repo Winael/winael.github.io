@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincent JOBARD</title>
+    <link>https://winael.github.io/</link>
+    <description>Recent content on Vincent JOBARD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 24 Mar 2020 09:10:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://winael.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gustavo Niemeyer, CTO de Canonical, partage son expérience du télétravail à Canonical</title>
+      <link>https://winael.github.io/blog/teletravail-canonical/</link>
+      <pubDate>Tue, 24 Mar 2020 09:10:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/teletravail-canonical/</guid>
+      <description>Nous y sommes. La pandémie causée par la contagion du Coronavirus CoVid-19 nous a poussée au confinement pour éviter une trop grosse contagion.</description>
+    </item>
+    
+    <item>
+      <title>Le Manifeste Agile RH</title>
+      <link>https://winael.github.io/blog/agilehr-manifesto/</link>
+      <pubDate>Mon, 09 Mar 2020 17:06:11 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/agilehr-manifesto/</guid>
+      <description>Lorsque l&amp;rsquo;on parle d&amp;rsquo;Agilité, beaucoup croit, à tort, que c&amp;rsquo;est un domaine exclusivement IT. Cependant à bien y regarder, l&amp;rsquo;Agilité puise ses fruits bien en amont.</description>
+    </item>
+    
+    <item>
+      <title>Le Manifeste Agnostique Agile</title>
+      <link>https://winael.github.io/blog/agnostic-agile-manifesto/</link>
+      <pubDate>Mon, 09 Mar 2020 14:35:45 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/agnostic-agile-manifesto/</guid>
+      <description>Lorsque l&amp;rsquo;on parle d&amp;rsquo;Agilité, bien souvent nous sommes confrontés à de grands débats d&amp;rsquo;&amp;ldquo;experts&amp;rdquo; sur l&amp;rsquo;utilisation automagique de tel ou tel framework.</description>
+    </item>
+    
+    <item>
+      <title>To be Agile or not to be Agile? That is the Question - Part 1: Les Valeurs de l&#39;Agilité</title>
+      <link>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</link>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</guid>
+      <description>ATTENTION : Cet article est un billet d&amp;rsquo;humeur. Le discours ne sera donc pas lissé et risque peut-être de choquer dans un monde où il ne faut surtout pas se faire remarquer.</description>
+    </item>
+    
+    <item>
+      <title>La boite à outils DevOps, ce qu&#39;il y a dedans va vous surprendre...</title>
+      <link>https://winael.github.io/blog/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</link>
+      <pubDate>Mon, 24 Feb 2020 15:18:42 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre/</guid>
+      <description>Suite à la publication d&amp;rsquo;un article sur ce qu&amp;rsquo;est DevOps (et ce qu&amp;rsquo;il n&amp;rsquo;est pas), un des auteurs de commentaires a présenté l&amp;rsquo;infographie suivante comme étant un panel d&amp;rsquo;outils DevOps :</description>
+    </item>
+    
+    <item>
+      <title>Le Devops : Ce qu&#39;il est... Et surtout ce qu&#39;il n&#39;est pas.</title>
+      <link>https://winael.github.io/blog/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</link>
+      <pubDate>Sat, 22 Feb 2020 15:42:52 +0000</pubDate>
+      
+      <guid>https://winael.github.io/blog/le-devops-ce-quil-est-et-surtout-ce-quil-nest-pas/</guid>
+      <description>Lorsque l’on fait une recherche sur les sites d’emploi avec le mot-clé DevOps, il n’est pas rare de tomber sur ce genre d’annonce :</description>
+    </item>
+    
+    <item>
+      <title>Sortir Des Sentiers Battus</title>
+      <link>https://winael.github.io/blog/sortir-des-sentiers-battus/</link>
+      <pubDate>Fri, 21 Feb 2020 23:55:14 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/sortir-des-sentiers-battus/</guid>
+      <description>Il y a quelques temps Constantin Guay partageait un billet de blog faisant une analogie entre les problématique d&amp;rsquo;estimations d&amp;rsquo;une équipe de développement Agile et l&amp;rsquo;estimation du temps de parcours donné par un GPS &amp;ldquo;temps réel&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Bien Etre en Entreprise,IA, Automatisation... Et Rapports Humains</title>
+      <link>https://winael.github.io/blog/bien-etre-en-entreprise-ia-automatisation-et-rapports-humains/</link>
+      <pubDate>Fri, 21 Feb 2020 11:53:33 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/bien-etre-en-entreprise-ia-automatisation-et-rapports-humains/</guid>
+      <description>Différents points m&amp;rsquo;ont personnellement gênés en lisant l&amp;rsquo;article Futur du travail : IA, bonheur, subsidiarité&amp;hellip; et beaucoup d&amp;rsquo;HUMILITÉ de Catherine Testa.</description>
+    </item>
+    
+    <item>
+      <title>Agnostic Agile</title>
+      <link>https://winael.github.io/agnostic-agile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://winael.github.io/agnostic-agile/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

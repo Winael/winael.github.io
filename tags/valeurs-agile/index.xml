@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valeurs Agile on Vincent JOBARD</title>
+    <link>https://winael.github.io/tags/valeurs-agile/</link>
+    <description>Recent content in Valeurs Agile on Vincent JOBARD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 25 Feb 2020 10:37:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://winael.github.io/tags/valeurs-agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>To be Agile or not to be Agile? That is the Question - Part 1: Les Valeurs de l&#39;Agilité</title>
+      <link>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</link>
+      <pubDate>Tue, 25 Feb 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/be-agile-or-not-to-be-agile-that-is-the-question-part-1-les-valeurs-de-lagilite/</guid>
+      <description>ATTENTION : Cet article est un billet d&amp;rsquo;humeur. Le discours ne sera donc pas lissé et risque peut-être de choquer dans un monde où il ne faut surtout pas se faire remarquer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ressources Humaines on Vincent JOBARD</title>
+    <link>https://winael.github.io/tags/ressources-humaines/</link>
+    <description>Recent content in Ressources Humaines on Vincent JOBARD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 09 Mar 2020 17:06:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://winael.github.io/tags/ressources-humaines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le Manifeste Agile RH</title>
+      <link>https://winael.github.io/blog/agilehr-manifesto/</link>
+      <pubDate>Mon, 09 Mar 2020 17:06:11 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/agilehr-manifesto/</guid>
+      <description>Lorsque l&amp;rsquo;on parle d&amp;rsquo;Agilité, beaucoup croit, à tort, que c&amp;rsquo;est un domaine exclusivement IT. Cependant à bien y regarder, l&amp;rsquo;Agilité puise ses fruits bien en amont.</description>
+    </item>
+    
+  </channel>
+</rss>

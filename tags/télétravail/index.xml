@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Télétravail on Vincent JOBARD</title>
+    <link>https://winael.github.io/tags/t%C3%A9l%C3%A9travail/</link>
+    <description>Recent content in Télétravail on Vincent JOBARD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 24 Mar 2020 09:10:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://winael.github.io/tags/t%C3%A9l%C3%A9travail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gustavo Niemeyer, CTO de Canonical, partage son expérience du télétravail à Canonical</title>
+      <link>https://winael.github.io/blog/teletravail-canonical/</link>
+      <pubDate>Tue, 24 Mar 2020 09:10:24 +0100</pubDate>
+      
+      <guid>https://winael.github.io/blog/teletravail-canonical/</guid>
+      <description>Nous y sommes. La pandémie causée par la contagion du Coronavirus CoVid-19 nous a poussée au confinement pour éviter une trop grosse contagion.</description>
+    </item>
+    
+  </channel>
+</rss>
